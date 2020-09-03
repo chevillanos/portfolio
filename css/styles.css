@@ -1,0 +1,199 @@
+/*
+Color references:
+  dark blue: 120136
+  blue: 035aa6
+  powder blue: 40bad5
+  orange: fcbf1e
+ */
+/* ELEMENT SELECTORS */
+body {
+  color: #f4f4f4;
+  display: block;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #120136;
+  width: 100%;
+  margin: 0;
+  line-height: 2rem;
+}
+
+h1 {
+  font-size: 5.86rem;
+  margin: 55px auto 30px auto;
+  font-family: 'Sacramento', cursive;
+  color: #fcbf1e;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #fcbf1e;
+}
+
+h3 {
+  color: #40bad5;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #40bad5;
+  text-decoration: none;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 15px;
+  width: 4%;
+  color: #b9ac92;
+}
+
+/* CLASS SELECTORS */
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.me-name {
+  margin-bottom: 60px;
+}
+
+.me-description {
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+.profile h2 {
+  margin-top: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 580px;
+  top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 250px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2em;
+}
+
+.car {
+  position: relative;
+  bottom: 80px;
+}
+
+.me-pic {
+  position: relative;
+  border-radius: 50%;
+  height: 256px;
+  bottom: 40px;
+}
+
+.profile {
+  position: relative;
+  margin-top: 0;
+}
+
+.skills-vs {
+  border-radius: 50%;
+  height: 256px;
+  width: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-sql {
+  border-radius: 50%;
+  height: 256px;
+  width: auto;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.skill-code {
+  padding-top: 10px;
+}
+
+.skill-db {
+  padding-top: 40px;
+}
+
+.contact-me {
+  clear: right;
+}
+
+.button-contact {
+  background: #FF8700;
+  background-image: -webkit-linear-gradient(top, #FF8700, #FCBF1E);
+  background-image: -moz-linear-gradient(top, #FF8700, #FCBF1E);
+  background-image: -ms-linear-gradient(top, #FF8700, #FCBF1E);
+  background-image: -o-linear-gradient(top, #FF8700, #FCBF1E);
+  background-image: linear-gradient(to bottom, #FF8700, #FCBF1E);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  color: #F4F4F4;
+  font-family: Open Sans;
+  padding: 12px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #FF8700 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.button-contact:hover {
+  border: solid #40BAD5 1px;
+  background: #40BAD5;
+  background-image: -webkit-linear-gradient(top, #40BAD5, #035AA6);
+  background-image: -moz-linear-gradient(top, #40BAD5, #035AA6);
+  background-image: -ms-linear-gradient(top, #40BAD5, #035AA6);
+  background-image: -o-linear-gradient(top, #40BAD5, #035AA6);
+  background-image: linear-gradient(to bottom, #40BAD5, #035AA6);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #fcbf1e;
+  color: #120136;
+  padding: 20px 0 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-container a {
+  color: #120136;
+  margin: 0 10px;
+}
+
+.bottom-container a:hover {
+  color: #035aa6;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+/* ID SELECTORS */
